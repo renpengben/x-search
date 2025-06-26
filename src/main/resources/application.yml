@@ -1,0 +1,29 @@
+
+spring:
+  application:
+    name: x-search
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      api-key:  sk-f2293a1ce3ca48209f4edac58f62b3a4
+      chat:
+        options:
+          model: qwen-max-latest
+      embedding:
+        options:
+          model: text-embedding-v1
+keys:
+  searchapi:
+    key: 4EMntTRJHyaSXrePLKDBwBv5
+    engine: google
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
+server:
+  port: 8888
