@@ -14,7 +14,7 @@ spring:
           model: text-embedding-v1
 keys:
   searchapi:
-    key: 4EMntTRJHyaSXrePLKDBwBv5
+    key: Z3cdcov64FYQR5kMzc53vYVb
     engine: google
 
 logging:
